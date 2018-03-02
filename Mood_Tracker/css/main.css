@@ -1,0 +1,71 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: lightblue;
+}
+
+.label {
+    font-size: 1.2em;
+    color: darkslateblue;
+    /*text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;*/
+}
+
+.jumbotron {
+    background-color: dodgerblue;
+    border-bottom: 2px solid black;
+}
+
+.jumbotron h1 {
+    color: darkslateblue;
+    font-size: 3em;
+    /*text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;*/
+}
+
+.form-group + .form-group{
+    padding-top: 5em;
+}
+
+.radio4{
+    width: 60%;
+}
+
+.radio2{
+    width: 25%;
+}
+
+.button-learn {
+    margin: 2px;
+    position: relative;
+    text-align: center;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+}
+
+#container {
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: cadetblue;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#btnSubmit {
+    background-color: #AB29D6;
+    border-color: black;
+}
+
+#btnClear {
+    background-color: #29ABD6;
+    border-color: black;
+}
